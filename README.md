@@ -2,7 +2,7 @@
 > A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. Many bike share systems allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
 
 ## Problem Statement
-> A US bike-sharing provider BoomBikes is lokking forward for below problem statements to improve his service for a better profitable business in market
+> A US bike-sharing provider BoomBikes is looking forward for below problem statements to improve his service for a better profitable business in market
 > 1. Which variables are significant in predicting the demand for shared bikes
 > 2. How well those variables describe the bike demands
 
@@ -16,9 +16,10 @@
 
 ## General Information
 - Performed EDA on Bike sharing data set
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Dummy variable Creation
+- Train Test Split
+- Standardization and Modeling
+- Residual Analysis
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -31,22 +32,24 @@
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+Most relevant variables need to be considered for prediction are
+- year
+- temp
+- weathersit like - moderate
+- windspeed
+- season like - summer, winter
+- month like - sep
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was inspired by UpGrad bike-sharing assignment
+- This project was based on Linear Regression Module
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@AKS-GithubAIML] - feel free to contact me!
 
 
 <!-- Optional -->
